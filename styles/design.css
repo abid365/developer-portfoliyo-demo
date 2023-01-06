@@ -13,7 +13,8 @@ header{
 }
 
 nav{
-    margin:auto 200px;
+    margin:0px 200px;
+    padding-top:20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -206,4 +207,26 @@ main{
     width: 50%;
     padding: 40px;
     text-align: center;
+}
+
+/* footer css */
+
+footer{
+    margin: auto 230px;
+    padding-top: 40px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 32px;
+}
+
+.footer-flex-parent{
+    display: flex;
+    gap: 25px;
+
+}
+
+.footer-child>p{
+    padding-right: 30px;
 }
