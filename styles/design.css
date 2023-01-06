@@ -130,6 +130,12 @@ main{
 }
 
 /* what i do */
+
+.what-i-do{
+    border-bottom: 1px solid #e2e2e2; 
+    padding-bottom: 50px;
+}
+
 .whid{
     text-align: center;
     margin:auto 230px;
@@ -164,4 +170,40 @@ main{
     border: 1px solid #333;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* a summary of my resume */
+
+.myresume{
+    margin: 100px 220px;
+    
+}
+.parent-flexbox{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+
+}
+
+.subflex{
+    width:50%;
+}
+
+.flexchilds{
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 5px; 
+}
+
+.exp-desc{
+    font-size: 12px;
+}
+
+.center-button{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
 }
