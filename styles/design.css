@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kalam&family=Shadows+Into+Light&display=swap');
+/* font-family: 'Comfortaa' , cursive; */
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+header{
+    background-color: #eaf4fc;
+    background-image: url('../images/Nidoran-pokeball-half-removebg-preview.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    margin:auto 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* @media screen and (max-width:600px){
+    nav{
+        margin:auto 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+
+    }
+} */
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#colored-btn{
+    padding: 10px 15px;
+    background-color: #E6E6FA;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: box-shadow .3s;
+}
+
+#colored-btn:hover{
+    box-shadow: 6px 6px #333;
+    background-color: #EEEEFF;
+}
+
+.hero-info{
+    width:50%;
+    font-size: 12px;
+}
+
+/* first image css */
+
+#char1{
+    height: 400px;
+    
+    
+}
+
+.hero{
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* main section css */
+main{
+    margin-top: 5rem;
+}
+
+.aboutme{
+    
+    margin: 2rem 230px;
+    border: 1px solid #5B5B5B;
+    border-radius:4px;
+    margin: auto;
+    padding: 10px 100px;;
+    width:50%;
+    background-color: #e6e6fa;
+    text-align: center;
+}
+
+#about-desc{
+    font-size: 12px;
+}
+
+.aboutme>h2{
+    padding: 20px 20px;
+}
+
+.about-info{
+    padding: 30px 30px;
+    color: #5B5B5B;
+}
+
+.connect-flex-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    color: #5B5B5B;
+}
+
+.connect-items>p{
+    font-size: 12px;
+    
+}
+
+.parent-about-flex{
+    border: 1px solid transparent;
+    margin: 5rem;
+    border-radius: 10px;
+    padding: 100px 50px;
+    background-color: #eaf4fc;
+}
